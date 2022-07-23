@@ -1,0 +1,11 @@
+
+<h1>Alunos já cadastrados.</h1>
+<div *ngFor="let item of aluno">
+
+    <h2>Nome: {{ item.nome }}</h2>
+    <h3>Informações:</h3>
+    <ul>
+        <li>mensalidade: {{ item.valorMensalidade }}</li>
+        <li>Ultima data paga: {{ item.dataUltimoPgto }}</li>
+    </ul>
+</div>

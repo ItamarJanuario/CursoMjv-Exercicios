@@ -1,0 +1,4 @@
+<div *ngFor="let item of tasks">
+    <h1>Descrição da atividade: {{ item.description }}</h1>
+    <h2 >data de inclusão: {{ item.inclusionDate | date: 'dd/MM/yy' }}</h2>
+</div>
